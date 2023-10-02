@@ -15,13 +15,10 @@ class Home extends Component {
     render(){
         return(
             <div className='home'>
-               <div className="home-wrap">
-               <Header/>
+                <Header/>
                     <Promo>
                         <PromoTitle/>
                     </Promo>
-               </div>
-                
                 <About/>
                 <Best/>   
                 <ArrowBack/>

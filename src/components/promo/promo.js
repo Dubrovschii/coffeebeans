@@ -1,6 +1,6 @@
 import { Component } from "react";
 import PromoTitle from "../promo-title/promo-title";
-import bgImage from './bg.png'
+// import bgImage from './bg.png'
 import './promo.css'
 
 class Promo extends Component{
@@ -13,11 +13,11 @@ class Promo extends Component{
 
     render(){
         return(
-            <div className="bg-cont">
-                <img src={bgImage} alt="promo-img" className="bg" />
+            <div className="promo">
+                
                 <PromoTitle></PromoTitle>
             </div>
-            // <img src={bgImage} alt="logo" className="bg" />
+           
         )
     }
 }
