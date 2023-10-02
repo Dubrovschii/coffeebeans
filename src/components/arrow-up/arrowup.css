@@ -1,0 +1,15 @@
+.img-up{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+
+}
+.arrow-up-wr{
+    position: fixed;
+    right: 25px;
+    top: calc(50% + 100px);
+    transform: translateY(50%);
+    z-index: 20;
+    background: cadetblue;
+    border-radius: 8px;
+}

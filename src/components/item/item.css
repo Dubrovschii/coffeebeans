@@ -1,0 +1,24 @@
+.item{
+    display: flex;
+    flex-flow: column;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 25px;
+    box-shadow: 5px 5px 20px 2px rgba(155, 155, 155, 1);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.item:hover{
+    color: red;
+    box-shadow: 5px 5px 20px 2px rgb(86, 86, 15);
+    transition: color 0.4s ease-in-out, 1s linear;
+
+
+}
+.item-text{
+    margin-top: 14px;
+    text-align: right;
+    font-family: Merienda;
+    font-size: 14px;
+}
+.item-price{font-weight: 700;}

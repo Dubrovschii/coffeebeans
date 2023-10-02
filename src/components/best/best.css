@@ -1,0 +1,81 @@
+
+.best-wrap{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.best-cont{
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    padding: 50px 0;
+}
+.best-title{
+    color: #1d1d1d;
+    text-align: center;
+    font-family: Merienda;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.list-wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+}
+.best-list-item{
+    max-width: 220px;
+    width: 100%;
+    height: 240px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.65);
+    position: relative;
+    margin-right: 71px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.best-list-item:last-child{
+    margin: 0;
+}
+.list-item-img{
+    padding-top: 22px;
+}
+.list-item-text{
+    position: absolute;
+    bottom: 22px;
+}
+.list-item-descr{
+    color: #1d1d1d;
+    text-align: center;
+    font-family: Merienda;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.list-item-price{
+    color: #1d1d1d;
+    text-align: center;
+    font-family: Merienda;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (max-width: 850px){
+    .list-wrap{
+        flex-flow: column;
+        align-items: center
+    }
+    .best-list-item{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}   

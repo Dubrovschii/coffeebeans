@@ -1,0 +1,64 @@
+.filter-tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter-tabs label{
+    color: #1d1d1d;
+    text-align: center;
+    font-family: Merienda;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.filter-tabs-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.filter-tab{
+    width: 75px;
+    height: 30px;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    margin: 0 5px;
+    color: #1d1d1d;
+    text-align: center;
+    font-family: Merienda;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.tab-active{
+    background: #F5F5DC;
+    border: none;
+    color: #BC8F8F;
+    box-shadow: 4px 4px 20px 10px rgba(240, 255, 255, 0.45);
+
+}
+@media (max-width: 850px){
+.filter-tabs{
+    margin-top: 20px;
+    }
+}
+@media (max-width: 450px){
+    .filter-tabs{
+        flex-flow: column;
+    }
+    .our-filter-search{
+        flex-flow: column;
+    }
+    .our-filter-search input{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .filter-tabs-wrap{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}

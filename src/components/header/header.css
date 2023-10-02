@@ -1,0 +1,139 @@
+li{
+    list-style: none;
+    padding:  0 10px;
+}
+a{
+    text-decoration: none;
+}
+.header-wrap{
+    display: flex;
+    margin-bottom: 0;
+    position: absolute;
+    z-index: 5;
+    max-width: 100%;
+    width: 100%;
+    padding-top: 30px;
+    align-items: center;
+
+
+}
+button{
+    border: none;
+    background: none;
+}
+.header-link{
+    border: none;
+    background: none;
+    color: #fff;
+    font-family: Merienda;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header-link:hover{
+    text-decoration: underline;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+}
+
+.list-mob-wr{
+    animation: list-mob-wr 2s;
+    box-shadow: 1px 1px 10px 10px rgb(123, 121, 124);
+
+}
+@keyframes list-mob-wr {
+    0% {
+        transform: scale3d(0, 0, 0);
+        box-shadow: none;
+
+    }
+    50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+        box-shadow: 1px 1px 1px 1px rgb(123, 121, 124);
+
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+        box-shadow: 1px 1px 10px 10px rgb(123, 121, 124);
+
+    }
+}
+@media (min-width: 451px){
+.header-mob-menu{
+    display: none;
+}    
+}
+@media (max-width: 450px){
+    .header-wrap{
+        padding-left: 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 20px;
+        position: relative;
+    }
+    .list-item-page{
+        display: none;
+    }
+    .hamburger{
+        cursor: pointer;
+    }
+    .hamburger span{
+        display: block;
+        width: 30px;
+        height: 2px;
+        background-color: #fff;
+        margin-bottom: 5px;
+    }
+    .hamburger span:last-child{
+        margin-bottom: 0;
+    }
+    .burgerActive span{
+        display: block;
+        width: 30px;
+        height: 2px;
+        background-color: #fff;
+        margin-bottom: 5px;
+    }
+    .burgerActive{
+        transition: cubic-bezier(1, 0, 0, 1) all;
+    }
+    .burgerActive span:nth-child(1){
+        display: none;
+    }
+    .burgerActive span:nth-child(2){
+        transform: rotate(45deg)
+
+    }
+    .burgerActive span:nth-child(3) {
+         transform: translate(1px, -7px) rotate(-44deg); 
+    }
+    
+    .list-mob-wr{
+        display: block;
+        width: 50%;
+        position: absolute;
+        z-index: 5;
+        left: 20px;
+        top: 80px;
+        background: #fff;
+        border: 1px solid #fff;
+        border-radius: 8px;
+        padding: 40px 0;
+    }
+    .list-mob-wr .list-item .header-link{
+        color: #1d1d1d;
+        
+    }
+    .list-item{
+        justify-content: center;
+    }
+    .mob-active{
+        display: none;
+        
+
+    }
+}

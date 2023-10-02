@@ -1,0 +1,25 @@
+.pleasure{
+    overflow: hidden;
+}
+.pleasure-wrap{
+    height: 500px;
+    position: relative;
+}
+.pleasure-title{
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-family: Merienda;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.pleasure-block-title{
+    font-family: Merienda;
+    text-align: center;
+}

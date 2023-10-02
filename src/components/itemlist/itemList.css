@@ -1,0 +1,20 @@
+.wr800{
+    max-width: 800px;
+    width: 100%;
+    display: block;    
+    margin: 0 auto;
+    padding-top: 80px;
+    box-sizing: border-box;
+    display: flex;
+}
+@media (max-width: 850px){
+    .space-row-30{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 600px){
+    .space-row-30{
+       padding: 0 25px;
+    }
+}

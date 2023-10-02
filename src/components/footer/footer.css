@@ -1,0 +1,31 @@
+.footer{
+    max-width: 100%;
+    width: 100%;
+    background: #fff;
+    padding: 50px 0;
+}
+.footer-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+.footer-link{
+    color: #1d1d1d;
+    border: none;
+    background: none;
+    font-family: Merienda;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media (max-width: 400px){
+    .footer{
+        padding: 25px 0;
+    }
+    .footer-wrap{
+        flex-flow: column;
+        
+    }
+}

@@ -1,0 +1,16 @@
+.img-back{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+
+}
+.arrow-back-wr{
+    position: fixed;
+    right: 25px;
+    top: 50%;
+    transform: translateY(50%);
+    z-index: 20;
+    background: cadetblue;
+    border-radius: 8px;
+
+}
